@@ -1,17 +1,17 @@
 //
-//  tradingcardApp.swift
-//  tradingcard
+//  TradingCardsApp.swift
+//  TradingCards
 //
-//  Created by Myers Elliott Mbonda on 2024-01-23.
+//  Created by Benjamin Lavallee on 2024-01-19.
 //
 
 import SwiftUI
 
 @main
-struct tradingcardApp: App {
+struct TradingCardsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlayerListView()
         }
     }
 }
